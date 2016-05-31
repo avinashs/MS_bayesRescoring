@@ -32,13 +32,13 @@ improvement is likely dependent on the grey area in the identifications.
 
 ###Scripts for creating suppl file
 
-######supplFilesScripts/calcrpkm.R
+#####supplFilesScripts/calcrpkm.R
 Script computes RPKM for all transcripts in a given accepted_hits.bam file output from Tophat, using Bioconductor GenomicFeatures package. Requires an already created transcript DB or can connect to biomart to download a transcript db [comment or uncomment appropriate lines to change behavior].
 
-######supplFilesScripts/enst2ensp.R
+#####supplFilesScripts/enst2ensp.R
 Script maps transcript ids to protein ids, right now only for ensembl.
 
-######supplFilesScripts/gtf2txdb.R
+#####supplFilesScripts/gtf2txdb.R
 Script can create a txdb (to use with calcrpkm script) from a GTF in case the annotations you want to use for transcripts are not present online.
 
 #####supplFilesScripts/makeSuppl.R
